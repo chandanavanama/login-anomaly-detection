@@ -1,2 +1,26 @@
-# login-anomaly-detection
-🔍 Login Anomaly Detection: Isolation Forest detects brute-force attacks in 1,000 login events. Engineered time gap/user/IP features. Flagged 50 anomalies (5%). Python • pandas • scikit-learn • matplotlib. Cybersecurity ML project for Rapid7 SE-II AI Engineer role. GitHub: full notebook + plot.
+Anomaly detection for login brute-force attacks using Isolation Forest (Python, scikit-learn)
+---
+
+🔍 Login Anomaly Detection for Cybersecurity Threat Detection
+
+Built unsupervised ML pipeline using **Isolation Forest** (scikit-learn) to identify brute-force login attacks and suspicious user behavior in session logs.
+
+✅ **Key Features**:
+• Analyzed 1,000 synthetic login events (timestamps, users, IPs, success rates)
+• Engineered features: time gaps, login frequency, user patterns
+• Detected **50 anomalies** (5%) - rapid logins indicating attacks
+• Visualized results with scatter plot highlighting suspicious patterns
+
+🛠 **Tech Stack**: Python • pandas • scikit-learn • matplotlib • Jupyter
+
+🎯 **Relevance**: Demonstrates anomaly detection for large-scale unlabeled data - core skill for cybersecurity ML roles.
+
+📊 **Screenshot**:
+
+RESULT: https://drive.google.com/file/d/1ETUfLZUzOK6zFciFr9fa2_vkbUA9CU-w/view?usp=sharing
+
+ANOMALY DETECTED PLOT: https://drive.google.com/file/d/1dFXbV2KzjMn_TP9UC93OGv5jbpCtFUVd/view?usp=sharing
+
+
+
+---
