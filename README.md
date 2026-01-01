@@ -4,6 +4,15 @@ Anomaly detection for login brute-force attacks using Isolation Forest (Python, 
 🔍 Login Anomaly Detection for Cybersecurity Threat Detection
 
 Built unsupervised ML pipeline using **Isolation Forest** (scikit-learn) to identify brute-force login attacks and suspicious user behavior in session logs.
+---
+Full folder structure
+---
+login-anomaly-detection/          ← Repo name
+├── anomaly_detection.ipynb       ← Main notebook
+├── anomaly_plot.png             ← Screenshot
+├── README.md                    ← Project description
+└── .gitignore                   ← Pro touch
+
 
 ✅ **Key Features**:
 • Analyzed 1,000 synthetic login events (timestamps, users, IPs, success rates)
